@@ -1,0 +1,20 @@
+
+> @ignite-ui/react@1.0.0 build
+> tsup src/index.tsx --format esm,cjs --dts --external react
+
+CLI Building entry: src/index.tsx
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.0.1
+CLI Target: es6
+ESM Build start
+CJS Build start
+CJS dist/index.js 3.73 KB
+CJS ⚡️ Build success in 13ms
+ESM dist/index.mjs 2.82 KB
+ESM ⚡️ Build success in 13ms
+DTS Build start
+../ts-config/base.json(7,9): error TS5025: Unknown compiler option 'forceConsistantCasingInFiLeNames'. Did you mean 'forceConsistentCasingInFileNames'?
+
+DTS ⚡️ Build success in 872ms
+DTS dist/index.d.mts 5.50 KB
+DTS dist/index.d.ts  5.50 KB
